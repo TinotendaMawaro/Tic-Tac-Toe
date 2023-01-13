@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     font-family: 'Pangolin', cursive;
-    background-color: #facb54;
+    background-image: url(/images/images.jpg);
 }
   
 *, *::before, *::after {
@@ -12,7 +12,7 @@ html {
 
 #main-heading {
     margin-top: 25px;
-    color: #004466;
+    color: #070707;
 }
 
 header, main {
@@ -32,8 +32,8 @@ h1:hover, h2:hover {
 
 #board-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    width: 360px;
+    grid-template-columns: 80px 80px 80px;
+    width: 300px;
     margin: 35px auto 30px auto;
 }
 
@@ -44,16 +44,16 @@ h1:hover, h2:hover {
     font-family: 'Pangolin', cursive;
     font-size: 100px;
     width: 120px;
-    height: 120px;
+    height: 80px;
     line-height: 120px;
 }
 
 .top, .mid {
-    border-bottom: 3px solid #004466;
+    border-bottom: 3px solid #0d0c10;
 }
 
 .left, .center {
-    border-right: 3px solid #004466;
+    border-right: 3px solid #101213;
 }
 
 h2 {
