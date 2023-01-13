@@ -41,7 +41,7 @@ h1:hover, h2:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Pangolin', cursive;
+    font-family: serif;
     font-size: 100px;
     width: 120px;
     height: 80px;
